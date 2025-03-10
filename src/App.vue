@@ -9,14 +9,15 @@
                             class="text-slate-500 font-bold uppercase text-sm md:text-lg lg:text-lg hover:text-slate-900 ">
                             <a href="/">Kent Main Dishes</a>
                         </h1>
-                        <div class="cursor-pointer fixed right-0" @click="togglebtn = !togglebtn">
+                        
+                        <div class="cursor-pointer fixed right-0  z-3" @click="togglebtn = !togglebtn">
                             <span v-if="!togglebtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 block md:hidden">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                               </svg>
                             </span>
                             <span v-else>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 block md:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 block md:hidden z-50">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                                 </svg>
                             </span>

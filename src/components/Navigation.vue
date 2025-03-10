@@ -1,5 +1,7 @@
 <template>
-    <div class="w-[80%] bg-black  text-center fixed md:hidden  font-Poppins text-lg leading-10 p-5 l rounded-2xl backdrop-blur-xs z-2">
+    <div class="fixed inset-0 bg-gradient-to-b from-black/0 to-black/80 opacity-100 z-1"></div>
+    
+    <div  class="w-[80%] bg-black  text-center fixed md:hidden  font-Poppins text-lg leading-10 p-5 l rounded-2xl backdrop-blur-xs z-2">
         <div>
             <nav>
                 <ul class="text-white ">
